@@ -464,7 +464,8 @@ main .content .image img {
 }
 
 #how {
-  height: auto;
+  
+  height: 100vh;
   background-color: #e4f4fe;
   display: flex;
   align-items: center;
@@ -520,4 +521,32 @@ footer .credits {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#guide .guide {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  border-bottom: 2px solid #eee;
+  padding: 60px 0;
+}
+
+#guide .guide:last-of-type {
+  border-bottom: 0;
+}
+
+
+
+#guide {
+  height: auto;
+}
+
+#guide .text {
+  text-align: center;
+  line-height: 1.6;
+}
+
+#guide .text h2 {
+  color: #0099ff;
 }
